@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Főoldal",
+    "about": "Rólunk",
+    "contact": "Kapcsolat"
+  },
+  "title": {
+    "home": "Főoldal",
+    "about": "Rólunk",
+    "contact": "Kapcsolat"
+  },
+  "greeting": "Szia"
+}
