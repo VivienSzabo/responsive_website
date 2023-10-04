@@ -8,14 +8,26 @@ import About from './components/pages/About';
 import ImageInfo from './components/inc/ImageInfo';
 
 
+import { useState } from 'react';
+import enTranslations from './translations/en.json';
+import hunTranslations from './translations/hun.json';
+
+
 function App() {
+
+  const [selectedLanguage, setSelectedLanguage] = useState('en');
+  
+
+  const handleLanguageChange = (language) => {
+    setSelectedLanguage(language);
+  };
   
   return (
     <div className="App">
-      <Navbar />
+      <Navbar onSelectLanguage={handleLanguageChange} selectedLanguage={selectedLanguage} enTranslations={enTranslations} hunTranslations={hunTranslations}/>
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="/" element={<Home selectedLanguage={selectedLanguage} enTranslations={enTranslations} hunTranslations={hunTranslations}/>}/>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Home />}/>
