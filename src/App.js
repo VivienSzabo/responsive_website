@@ -5,6 +5,7 @@ import Navbar from './components/inc/Navbar';
 import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
+import ImageInfo from './components/inc/ImageInfo';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="*" element={<Home />}/>
       </Routes>
     </BrowserRouter>
+    <ImageInfo />
     </div> 
   );
 }
