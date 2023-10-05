@@ -1,4 +1,34 @@
-.App {
-  text-align: center;
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
+
+.main-heading {
+  font-size: 36px;
+}
+
+.main-heading-color {
+  color:rgba(191, 30, 110, 1);
+}
+
+.underline {
+  height: 4px;
+  width: 4rem; 
+  background-color: rgb(191, 203, 83);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bg-c-light {
+  background-color: rgba(15, 116, 152, 0.8);
+}
+
+.footer a {
+  color:white !important;
+  text-decoration: none !important;
+}
+
+.footer a:hover {
+  color:rgb(203, 133, 198) !important;
+}

@@ -23,7 +23,7 @@ function Navbar({ onSelectLanguage, selectedLanguage, enTranslations, hunTransla
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active text-white" aria-current="page" href="/">
@@ -33,6 +33,11 @@ function Navbar({ onSelectLanguage, selectedLanguage, enTranslations, hunTransla
             <li className="nav-item">
               <a className="nav-link text-white" href="/about">
               {navTranslations.nav.about}
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-white" href="/thingstosee">
+              {navTranslations.nav.thingsToSee}
               </a>
             </li>
             <li className="nav-item">

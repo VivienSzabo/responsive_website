@@ -1,13 +1,46 @@
 {
   "nav": {
     "home": "Főoldal",
-    "about": "Rólunk",
+    "about": "Lakás",
+    "thingsToSee": "Látnivalók",
     "contact": "Kapcsolat"
   },
-  "title": {
-    "home": "Főoldal",
-    "about": "Rólunk",
-    "contact": "Kapcsolat"
-  },
-  "greeting": "Szia"
+  
+  "home": {
+    "title": "Egy lakás New Yorkban",
+    "description": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr as loud as possible, be the most annoying cat that you can, and, knock everything off the table yet do not try to mix old food with new one to fool me! or rub whiskers on bare skin act innocent so meow. What the heck just happened.",
+    "button": "Megnézem",
+    
+    "installation": {
+      "title": "Felszereltség",
+      "smallTitleOne": "Lorem",
+      "descriptionOne": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr.",
+      "smallTitleTwo": "Lorem",
+      "descriptionTwo": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr.",
+      "smallTitleThree": "Lorem",
+      "descriptionThree": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr.",
+      "button": "Megnézem"
+    },
+    "thingsToSee": {
+      "title": "Látnivalók",
+      "smallTitleOne": "Lorem",
+      "descriptionOne": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr.",
+      "button": "Megnézem",
+      "smallTitleTwo": "Lorem",
+      "descriptionTwo": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr.",
+      "button": "Megnézem",
+      "smallTitleThree": "Lorem",
+      "descriptionThree": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr.",
+      "button": "Megnézem"
+    },
+    "testimonial": {
+      "title": "Rólunk mondták",
+      "descriptionOne": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr.",
+      "nameOne": "Row Tamás",
+      "descriptionTwo": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr.",
+      "nameTwo": "Row Tamás",
+      "descriptionThree": "This is the day touch water with paw then recoil in horror but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? but purr.",
+      "nameThree": "Row Tamás"
+    }
+  }
 }
